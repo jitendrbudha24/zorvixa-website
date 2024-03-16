@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      
+  }
+   ul{
+    margin: 0;
+    padding: 0;
+   }
+  
+    
+  
+  
+  
+  
+  body {
+    
+        font-family: "Poppins", sans-serif;
+        
+        font-style: normal;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  .top {
+    background: #018AFE;
+  }
+  .top a {
+    color: #fff;
+    font-size: 14px;
+  }
+  .top .info i {
+    color: #fff;
+  }
+  .navbar-brand img {
+    width: 178px;
+    height: 65px;
+  }
+  .navbar-nav .nav-item .nav-link:hover{
+    color: #018AFE;
+
+  }
+  
+  .hero{
+      background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),  url('../img/banner.jpg');
+      
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      height: 700px;
+      width:auto;
+  }
+   .herobutton .bg-primary:hover{
+    background: white !important;
+    color: #018AFE;
+  }
+  
+
+  .services{
+    position: relative;
+    top: -70px;
+
+  }
+  .bg-light:hover{
+        background:#018AFE !important ;
+        color: white;
+    }
+    .videop{
+      border-right: 35px solid #018AFE;
+      border-top-right-radius:  30px;
+      border-bottom-right-radius:30px ;
+    }
+
+    .videop{
+      position: relative;
+      overflow: hidden;
+      &:hover
+      {
+          &::after{
+              left: 200%;
+          }
+      }
+  
+  }
+  .videop::after{
+      content: '' ;
+      width: 100px;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.516);
+      left: -100%;
+      top: 0;
+      position: absolute;
+      transform: skew(-30deg);
+      transition: 0.9s;
+  }
+
+    .timg{
+      height: 50px;
+      width: 50px;
+    }
+    .tboard{
+      border-right: 2px solid #018AFE;
+      
+    }
+    .icn{
+      position: relative;
+      left: -8px;
+
+      height: 30px;
+      width: 30px;
+      background: #018AFE;
+      color: white;
+    }
+    .ourservice{
+      
+
+
+      background: linear-gradient(hsla(203, 61%, 48%, 0.769),rgba(27, 126, 208, 0.9)),  url('../img/lgi.jpeg');
+      
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      height: 700px;
+      width:auto;
+  }
+  
+
+
+  .get-consulations{
+    position: relative;
+    overflow: hidden;
+    &:hover
+    {
+        &::after{
+            left: 200%;
+        }
+    }
+
+}
+.get-consulations::after{
+    content: '' ;
+    width: 100px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.516);
+    left: -100%;
+    top: 0;
+    position: absolute;
+    transform: skew(-30deg);
+    transition: 0.9s;
+}
+
+  
+
+
+  .btn{
+    background: white;
+    color: #018AFE;
+    border-radius: 10px;
+  }
+    .offer{
+      color: #fff;
+      font-size: 50px;
+    }
+    .icon-services-1{
+      position: relative;
+      top: -40px;
+
+      height: 60px;
+      width: 60px;
+      background: #018AFE;
+      color: white;
+      background: #018AFE;
+      border: 2px solid  ;
+      border-radius: 50%;
+
+    }
+    .rounded-circle{
+      height: 50px;
+      width: 50px;
+    }
+    .d-flex{
+      border-right: 2px solid white;
+    }
+    .cfig{
+      background: #018AFE;
+      height: 80px;
+      width: auto;
+      color: white;
+    }
+    .whychooseus{
+      background: linear-gradient(rgba(43, 70, 116, 0.9) , rgba(42, 83, 116, 0.9)), url('../img/why-choose-us-bg-img.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      height: 700px;
+      width: auto;
+
+    }
+    .wcu{
+      position: relative;
+      overflow: hidden;
+      &:hover
+      {
+          &::after{
+              left: 200%;
+          }
+      }
+  
+  }
+  .wcu::after{
+      content: '' ;
+      width: 100px;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.516);
+      left: -100%;
+      top: 0;
+      position: absolute;
+      transform: skew(-30deg);
+      transition: 0.9s;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .testimonials{
+      background: linear-gradient(rgba(38, 141, 209, 0.9), rgba(43, 153, 222,0.9)), url('../img/lgi.jpeg');
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 1000px;
+      width: auto;
+
+    }
+    
+    .vcardimg{
+      height: 50px;
+      width: 50px;
+    }
+     a .vcard .text-white: hover{
+      color: black;
+    }
+    .vcard{
+      background-color: #0188fedf;
+      position: relative;
+      z-index: 22222;
+      ;
+    }
+    
+
+
+
+
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .bandn{
+      background: linear-gradient(rgba(31, 29, 29, 0.687) , rgba(41, 38, 38, 0.66)), url('../img/footer-newsletter-bg-img.jpg');
+      background-position: center;
+      background-size: auto;
+      background-attachment: fixed;
+      height: 200px;
+      width: 1000px;
+      margin-bottom: -140px;
+      
+      
+      
+      
+    }
+
+    .footer{
+      background: linear-gradient(rgba(65, 154, 237, 0.9) , rgba(65, 154, 237, 0.9));
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 500px;
+      width: auto;
+      
+    }
+    .footerlogo{
+      height: 75px;
+      width: 200px;
+      background: #fff;
+      color: #fff;
+      align-items: center;
+      margin-top: 150px;
+      padding: 5px;
+      
+    
+    }
+    .ficon{
+      margin-top: 150px;
+      padding: 5px;
+
+    }
+
+
+
+
+
+  
+
+  
+  
+  
+
+  
+  
+  
+  
